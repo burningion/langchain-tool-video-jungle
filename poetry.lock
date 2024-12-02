@@ -799,13 +799,13 @@ zstd = ["zstandard (>=0.18.0)"]
 
 [[package]]
 name = "videojungle"
-version = "0.1.24"
+version = "0.1.25"
 description = "A Python client for the Video Jungle API"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "videojungle-0.1.24-py3-none-any.whl", hash = "sha256:8d4f16068fe1bd040f356d4c7415a7a1a7fa6e4004cb1789651b3b9074aff21b"},
-    {file = "videojungle-0.1.24.tar.gz", hash = "sha256:c1bc8f01e0512ad63967e3c85092ca586580a7419d2e34df2a78944e82ecabb7"},
+    {file = "videojungle-0.1.25-py3-none-any.whl", hash = "sha256:ea32a6fab9f9789b468066a693f7b6b907523d10b05bf39c99601e5dfebd05a2"},
+    {file = "videojungle-0.1.25.tar.gz", hash = "sha256:32ac379d8a5677b4d66b23d30c3f7576ee7ae10005cf3856138ec3cc14ec70a7"},
 ]
 
 [package.dependencies]
@@ -815,4 +815,4 @@ requests = "*"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "34c206032f6d0434ab6c4780c16159dbb488b28a0d3fa4c1c37d40875169f52f"
+content-hash = "a37cab9b3fd779a441d07f2c6e123761097c3e16dbda6200a4b4948954f0dbc4"
