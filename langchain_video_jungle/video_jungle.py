@@ -14,3 +14,8 @@ vj = ApiClient(VJ_API_KEY)
 @tool
 def search_videos(query: str) -> List[Annotated[dict, "video"]]:
     return vj.video_files.search(query)
+
+@tool
+def get_video(video_id: str) -> Annotated[dict, "video"]:
+    res = vj.video_files.get(video_id)
+    return res.model_dump()
